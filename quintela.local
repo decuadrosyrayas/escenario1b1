@@ -1,0 +1,19 @@
+; BIND data file for local loopback interface
+;
+$TTL    60
+@       IN      SOA     quintela.local  root.quintela.local (
+                      201811092         ; Serial
+                            110         ; Refresh
+                             40         ; Retry
+                        2419200         ; Expire
+                             10 )       ; Negative Cache TTL
+;
+@        IN     MX      10 mail.quintela.local.
+@        IN     NS      ns1.quintela.local.
+debian   IN     CNAME   ns1.quintela.local.
+mail     IN     A       172.16.5.85
+router   IN     A       172.16.5.254
+www      IN     CNAME   ns1.quintela.local.
+intranet IN     CNAME   ns1.quintela.local.
+extranet IN     CNAME   ns1.quintela.local.
+** Joe's Own Editor v3.7 ** (utf-8) ** Copyright © 2008 **
