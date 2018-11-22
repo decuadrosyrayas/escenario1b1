@@ -16,4 +16,4 @@ router   IN     A       172.16.5.254
 www      IN     CNAME   ns1.quintela.local.
 intranet IN     CNAME   ns1.quintela.local.
 extranet IN     CNAME   ns1.quintela.local.
-** Joe's Own Editor v3.7 ** (utf-8) ** Copyright © 2008 **
+
